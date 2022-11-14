@@ -1,4 +1,4 @@
-import { GetServerSideProps, NextPage } from 'next'
+import { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import Layout from '../app/components/common/Layout'
 import { IPlace } from '../app/types/place'
 
@@ -12,7 +12,7 @@ const Home: NextPage<IHome> = ({places}) => {
 	</Layout>
 }
 
-export const getServerSideProps: GetServerSideProps = 
+export const getStaticProps: GetStaticProps = 
 async () => {
 	const result = await fetch('http://localhost:3000/api/places')
 	const places = await result.json()
