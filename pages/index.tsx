@@ -2,13 +2,16 @@ import { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import Layout from '../app/components/common/Layout'
 import { IPlace } from '../app/types/place'
 
+import SearchSection from '../app/components/elements/Home/SearchSection/SearchSection'
+
 interface IHome {
 	places: IPlace[]
 }
 
 const Home: NextPage<IHome> = ({places}) => {
 	return <Layout>
-		{places.map(place => place.location)}
+		
+		<SearchSection />
 	</Layout>
 }
 
