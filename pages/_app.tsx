@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<NextProgressBar
-				color='#eb601e'
+				color='#4387eed8'
 				startPosition={0.3}
 				stopDelayMs={200}
 				height={3}
