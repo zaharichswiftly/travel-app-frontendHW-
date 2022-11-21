@@ -924,7 +924,7 @@ d3-drag@2:
   resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-2.0.0.tgz#fd1762bfca00dae4bacea504b1d628ff290ac563"
   integrity sha512-68/n9JWarxXkOWMshcT5IcjbB+agblQUaIsbnXmrzejn2O82n3p2A9R2zEB9HIEFWKFwPAEDDN8gR0VdSAyyAQ==
 
-d3-geo@^2.0.1:
+d3-geo@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-2.0.2.tgz#c065c1b71fe8c5f1be657e5f43d9bdd010383c40"
   integrity sha512-8pM1WGMLGFuhq9S+FpPURxic+gKzjluCD/CHTuUF3mXMeiCo0i6R0tO1s4+GArRFde96SLcW/kOFRjoAosPsFA==
@@ -2694,12 +2694,12 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-simple-maps@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-simple-maps/-/react-simple-maps-2.3.0.tgz#7fdb55120335a9b1ef5bf62e0dcb669511705f3e"
-  integrity sha512-IZVeiPSRZKwD6I/2NvXpQ2uENYGDGZp8DvZjkapcxuJ/LQHTfl+Byb+KNgY7s+iatRA2ad8LnZ3AgqcjziCCsw==
+react-simple-maps@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-simple-maps/-/react-simple-maps-3.0.0.tgz#2349d884c9ba37b68695b9f5e1e7d9c2a826c00e"
+  integrity sha512-vKNFrvpPG8Vyfdjnz5Ne1N56rZlDfHXv5THNXOVZMqbX1rWZA48zQuYT03mx6PAKanqarJu/PDLgshIZAfHHqw==
   dependencies:
-    d3-geo "^2.0.1"
+    d3-geo "^2.0.2"
     d3-selection "^2.0.0"
     d3-zoom "^2.0.0"
     topojson-client "^3.1.0"
