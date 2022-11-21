@@ -1,34 +1,34 @@
 @import '../../../../../assets/styles/variables';
 
-.section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 
-    background-size: cover;
-    background-position: top center;
+	background-size: cover;
+	background-position: top center;
 
-    position: relative;
+	position: relative;
 
-    &::before{
-        content: '';
-        position: absolute;
-        background-color: $bg-color;
-        opacity: 0.85;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    }
-    
-    >div {
-        z-index: 1;
-    }
+	&::before {
+		content: '';
+		position: absolute;
+		background-color: $bg-color;
+		opacity: 0.85;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
 
-    h1{
-        color: $white;
-        text-align: center;
-        padding: 3rem 0;
-        font-size: 1.7em;
-    }
+	> div {
+		z-index: 1;
+	}
+
+	h1 {
+		color: $white;
+		text-align: center;
+		padding: 3rem 0;
+		font-size: 1.7em;
+	}
 }
