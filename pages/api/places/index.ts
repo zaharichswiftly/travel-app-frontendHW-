@@ -5,10 +5,10 @@ export const places: IPlace[] = [
 	{
 		slug: 'tokyo',
 		description:
-			'Kyoto, located in the Kansai region of Japan, is the countrys seventh largest city. Kyoto is home to roughly one quarter of Japan national treasures.',
+			'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,',
 		imagePath: 'http://localhost:3000/images/places/japan.jpg',
 		location: { country: 'Japan', city: 'Kyoto' },
-		rating: 10,
+		rating: 5,
 		duration: '10 days',
 		distance: 10453,
 		googleMapLink: 'wefewf',
@@ -21,7 +21,7 @@ export const places: IPlace[] = [
 			'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,',
 		imagePath: 'http://localhost:3000/images/places/italy.jpg',
 		location: { country: 'Italy', city: 'Venezia' },
-		rating: 8,
+		rating: 5,
 		duration: '7 days',
 		distance: 9453,
 		googleMapLink: 'wefewf',
