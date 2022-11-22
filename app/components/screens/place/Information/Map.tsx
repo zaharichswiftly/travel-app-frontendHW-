@@ -7,18 +7,18 @@ const geoUrl =
 export default function MapChart() {
   return (
     <ComposableMap>
-	<ZoomableGroup>
-      <Geographies geography={geoUrl}>
-        {({ geographies }) =>
-          geographies.map((geo) => (
-			  <Geography key={geo.rsmKey} geography={geo}
-			  fill="#807e7f"
-          	  stroke="#e8e8e8" 
-			  />
-			  ))
-			}
-      </Geographies>
-	  </ZoomableGroup>
+      <ZoomableGroup>
+        <Geographies geography={geoUrl}>
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography key={geo.rsmKey} geography={geo}
+                fill="#807e7f"
+                stroke="#e8e8e8"
+              />
+            ))
+          }
+        </Geographies>
+      </ZoomableGroup>
     </ComposableMap>
   )
 }
