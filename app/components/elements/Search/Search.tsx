@@ -21,9 +21,9 @@ const Search: FC<ISearch> = ({ setPlaces, initialPlaces, setIsLoading }) => {
 			if (value)
 				setPlaces(
 					initialPlaces.filter(
-						place =>
-							place.location.city.toLowerCase().includes(value) ||
-							place.location.country.toLowerCase().includes(value)
+						({ location: {city = '', country = ''} }) =>
+							city.toLowerCase().includes(value) ||
+							country.toLowerCase().includes(value)
 					)
 				)
 			else setPlaces(initialPlaces)

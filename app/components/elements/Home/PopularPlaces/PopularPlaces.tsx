@@ -21,13 +21,14 @@ const PopularPlaces: FC<IPopularPlaces> = ({ places, isLoading }) => {
 						marginTop: '-2rem',
 					}}
 				>
-					<Skeleton
+          <div className={styles.skeleton} />
+					{/* <Skeleton
 						count={1}
 						height={200}
 						borderRadius='20px'
 						baseColor='#1b1b1d'
 						highlightColor='#2c2c2e'
-					/>
+					/> */}
 				</div>
 			) : places.length ? (
 				places.map(place => (
